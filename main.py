@@ -143,7 +143,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
         "data": {
             "date": {
                 "value": "{} {}".format(today, week),
-                "color": "新的一天要开开心心"get_color()
+                "color": get_color()
             },
             "region": {
                 "value": region_name,
